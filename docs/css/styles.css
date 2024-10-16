@@ -1,0 +1,22 @@
+/* 右侧导航栏 */
+.toc {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 200px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none; /* 默认隐藏 */
+  }
+  
+  /* 鼠标移动到页面右侧时显示目录 */
+  body:hover .toc {
+    display: block;
+  }
+  
+  /* 当前章节高亮 */
+  .toc-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }

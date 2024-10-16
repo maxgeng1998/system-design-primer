@@ -1,0 +1,19 @@
+title: System Design Primer
+baseurl: "" # 在 GitHub Pages 上通常保持为空
+url: "https://<your-username>.github.io" # 你的 GitHub Pages 网站的 URL
+theme: minima # 使用默认的 minima 主题
+markdown: kramdown
+kramdown:
+  toc_levels: 1..3 # 设置目录级别
+plugins:
+  - jekyll-toc # 可选插件，用于生成目录
+
+# Exclude unnecessary files from the build
+exclude:
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+
+# 代码高亮设置
+highlighter: rouge
